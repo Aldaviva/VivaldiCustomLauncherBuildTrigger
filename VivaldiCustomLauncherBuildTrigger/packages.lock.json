@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net7.0": {
+      "McMaster.Extensions.CommandLineUtils": {
+        "type": "Direct",
+        "requested": "[4.0.2, )",
+        "resolved": "4.0.2",
+        "contentHash": "/M/p9fPUfu1dtIa+/xJS3hdp4aNIVr3c0reLFP4ZKo1vZy1sXeWeyaSapoVk8dmT79OxJTpLUGDdv0ReBd8d8A==",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        }
+      },
+      "System.ComponentModel.Annotations": {
+        "type": "Transitive",
+        "resolved": "5.0.0",
+        "contentHash": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg=="
+      }
+    },
+    "net7.0/win10-x64": {}
+  }
+}

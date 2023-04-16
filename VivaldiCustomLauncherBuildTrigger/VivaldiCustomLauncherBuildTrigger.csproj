@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RollForward>major</RollForward>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <LangVersion>latest</LangVersion>
+        <Copyright>© 2023 Ben Hutchison</Copyright>
+        <Authors>Ben Hutchison</Authors>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
+        <Version>1.1.0</Version>
+        <AssemblyTitle>VivaldiCustomLauncher Build Trigger</AssemblyTitle>
+        <Product>$(AssemblyTitle)</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="icon.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.0.2" />
+    </ItemGroup>
+
+</Project>
